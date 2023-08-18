@@ -46,3 +46,13 @@ a {
     border-color: white;
   }
 }
+
+.reveal {
+  transform: translateX(-150px);
+  opacity: 0;
+  transition: 1s all ease-in-out;
+  &.active {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}

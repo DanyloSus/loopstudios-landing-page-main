@@ -35,7 +35,7 @@ const Header = () => {
           />
         </header>
         <div className="h-full w-full flex items-center justify-start">
-          <div className="border-2 pt-10 pb-6 px-12 w-[650px] md:w-full md:p-6 overflow-hidden">
+          <div className="border-2 pt-10 pb-6 px-12 w-[650px] md:w-full md:p-6 overflow-hidden reveal">
             <h1 className="uppercase text-7xl md:text-[40px]">
               immersive experiences that deliver
             </h1>

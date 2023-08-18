@@ -7,7 +7,7 @@ interface CreationProps {
 const Creation = ({ name, img, padding }: CreationProps) => {
   return (
     <div
-      className="relative w-[256px] h-[450px] md:w-full md:h-[120px] cursor-pointer"
+      className="relative w-[256px] h-[450px] md:w-full md:h-[120px] cursor-pointer reveal"
       id="creation"
     >
       <img
