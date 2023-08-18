@@ -21,7 +21,10 @@ const Creation = ({ name, img, padding }: CreationProps) => {
         className="absolute w-full h-[120px] md:block hidden object-cover"
       />
       <div className="flex items-end justify-end md:justify-start w-[256px] h-[450px] md:h-[120px] md:max-w-[375px] relative z-10 transition-colors">
-        <h1 className="text-white p-10 md:p-5 md:pr-[70px] text-3xl bg-gradient-to-t md:bg-gradient-to-r from-black to-transparent  transition-colors md:h-full md:flex md:items-end md:justify-start md:text-2xl">
+        <h1
+          className="text-white p-10 md:p-5 md:pr-[70px] text-3xl bg-gradient-to-t md:bg-gradient-to-r from-black to-transparent  transition-colors md:h-full md:flex md:items-end md:justify-start md:text-2xl"
+          style={padding ? { paddingRight: `${padding}px` } : {}}
+        >
           {name}
         </h1>
       </div>

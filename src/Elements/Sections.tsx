@@ -1,10 +1,10 @@
 const Sections = () => {
   return (
-    <section className=" w-full max-w-[1114px] flex items-end relative md:flex flex-col">
+    <section className="max-w-[1114px] w-full flex relative flex-col">
       <img
         src="./desktop/image-interactive.jpg"
         alt="image interactive"
-        className="reveal md:hidden"
+        className="reveal md:hidden max-w-[750px]"
       />
       <img
         src="./mobile/image-interactive.jpg"
